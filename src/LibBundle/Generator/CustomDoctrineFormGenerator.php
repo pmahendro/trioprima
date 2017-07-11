@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Generator;
+namespace LibBundle\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Generator\Generator;
 use Symfony\Component\Filesystem\Filesystem;

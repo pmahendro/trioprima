@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Generator;
+namespace LibBundle\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Generator\DoctrineCrudGenerator;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;

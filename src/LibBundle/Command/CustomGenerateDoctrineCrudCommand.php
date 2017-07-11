@@ -1,14 +1,14 @@
 <?php
 
-namespace AppBundle\Command;
+namespace LibBundle\Command;
 
 use Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand;
 use Sensio\Bundle\GeneratorBundle\Command\Validators;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use AppBundle\Generator\CustomDoctrineCrudGenerator;
-use AppBundle\Generator\CustomDoctrineGridGenerator;
-use AppBundle\Generator\CustomDoctrineFormGenerator;
+use LibBundle\Generator\CustomDoctrineCrudGenerator;
+use LibBundle\Generator\CustomDoctrineGridGenerator;
+use LibBundle\Generator\CustomDoctrineFormGenerator;
 
 class CustomGenerateDoctrineCrudCommand extends GenerateDoctrineCrudCommand
 {
